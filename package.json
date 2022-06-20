@@ -1,0 +1,15 @@
+{
+	"name": "poc-node-localstack",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:willfong/poc-node-localstack.git",
+	"author": "Will Fong <willfong@hey.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@aws-sdk/client-s3": "^3.110.0"
+	},
+	"scripts": {
+		"create-data": "node ./create_data.mjs",
+		"s3": "node ./s3/index.mjs"
+	}
+}
